@@ -1,0 +1,73 @@
+.bubble{
+    width:100px;
+    background:#fc0;
+    padding:10px 20px;
+    color:#333;
+    border-radius:4px;
+    position:relative;
+    top:30px;
+    left:30px;
+    border:1px solid #333;
+}
+.bubble .arrow{
+    display:block;
+    width:0;
+    height:0;
+    border-style:solid;
+    position: absolute;
+}
+.bubble .arrow.arrowTop{
+    border-width:0 20px 20px;
+    border-color:transparent transparent #333;
+    top:-20px;
+    left:50%;
+    margin-left: -20px;
+}
+.bubble .arrow.arrowTop em{
+    display:block;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-width:0 20px 20px;
+    border-color:transparent transparent #fc0;
+    position: absolute;
+    top:1px;
+    left:-20px;
+}
+
+.bubble .arrow.arrowLeft{
+    border-width:20px 20px 20px 0px;
+    border-color:transparent #333 transparent transparent;
+    top:50%;
+    left:-20px;
+    margin-top: -20px;
+}
+.bubble .arrow.arrowLeft em{
+    display:block;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-width:20px 20px 20px 0px;
+    border-color:transparent #fc0 transparent transparent;
+    position: absolute;
+    top:-20px;
+    left:1px;
+}
+.bubble .arrow.arrowBottom{
+    border-width:20px 20px 0px 20px;
+    border-color:#333 transparent  transparent transparent;
+    top:100%;
+    left:50%;
+    margin-left: -20px;
+}
+.bubble .arrow.arrowBottom em{
+    display:block;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-width:20px 20px 0px 20px;
+    border-color:#fc0 transparent transparent transparent;
+    position: absolute;
+    top:-21px;
+    left:-20px;
+}
