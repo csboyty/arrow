@@ -69,3 +69,13 @@
     left:-19px;
 }
 
+.arrowAll{
+    border-left:50px solid #060;
+    border-right:50px solid #600;
+    border-bottom:50px solid #f00;
+    border-top:50px solid #00f;
+    width:0px;
+    height:0px;
+    font-size: 0px;
+}
+
